@@ -1,2 +1,6 @@
 node_modules
-packages/*
+monorepo-root/*
+!monorepo-root/.gitkeep
+!monorepo-root/packages
+monorepo-root/packages/*
+!monorepo-root/packages/.gitkeep
