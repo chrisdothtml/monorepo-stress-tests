@@ -1,0 +1,3 @@
+[submodule "monorepo-project-generator"]
+	path = monorepo-project-generator
+	url = git@github.com:chrisdothtml/monorepo-project-generator.git
