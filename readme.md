@@ -24,6 +24,8 @@ git checkout <tool-name>
 
 ### 3. Generate the fixture packages
 
+***Note***: this should be run every time you switch branches as they each tool has its own custom generation scripts
+
 ```sh
 ./scripts/generate.sh
 
