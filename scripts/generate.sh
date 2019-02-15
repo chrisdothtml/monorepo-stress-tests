@@ -11,3 +11,6 @@ echo '{\n  "private": true\n}' > package.json
 # generate benchmark packages
 cd packages
 "../../$DIRNAME/_generator.sh" generate ${1:-500}
+
+# tool-specific
+node "../../$DIRNAME/_hoist-deps.js"
